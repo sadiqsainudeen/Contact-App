@@ -1,0 +1,42 @@
+         
+
+         Contact Managemet App -API based angular project
+
+
+     1.Create angular project
+     2.Install  bootstrap and font awesome.    
+     3.Paste cdn link of font awesome in index.html
+     4.Conigure  bootstrap and font awesome in angular.json
+     5.Configure google  fonts in index.html and style.css.
+     6.Check all work.     
+     7.Create componets need to display   
+        a)Contact manager-view all contact
+        b)Add contact-add a new contact
+        c)Update contact-to edit existing contact
+        d)View contact-to view particular conatct
+        e)Page not found- to displa page not found
+        f)Nav bar-place its selector inside root component html page
+     8.Set up path for each component in order to view it in browser  
+        -Set up path for each component in app-routing-module.ts ,routes array
+        -In app.component.html add router-outlet selector for displaying different web page as per user request
+     9.	Design html page of each component    
+     10.	Set up the server api
+      	 - Create server folder inside the project
+          -Create db.json file
+          -	Open cmd from server folder
+	            *Create package.json file – command-  npm init
+               *Install json-server inside server folder- command-  npm i json-server
+      11.Create model  for contact and groups
+	         -Create model folder in src folder
+           	-Create myContact.ts file
+            -Create myGroup.ts file
+      12.Create an angular service for making api call  
+      13.To get http methods-get,post,put,patch,delete
+          -Import HttpClientModule in app.module.ts
+      14.Dependency Injection-perform inside constructor (in the file api service.ts)
+           -syntax:access specifier variable-name:class-name
+
+
+         
+
+

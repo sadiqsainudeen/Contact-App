@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Anton&family=Creepster&family=Dancing+Script&family=Delicious+Handrawn&family=Mochiy+Pop+One&family=Open+Sans:ital,wght@1,300&family=Oswald:wght@300&family=Pacifico&family=Racing+Sans+One&display=swap');
+
+body {
+    font-family: 'Racing Sans One', cursive;
+
+}
+.contact-image{
+    width: 130px;
+  
+}

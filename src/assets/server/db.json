@@ -1,0 +1,103 @@
+{
+    "contacts": [
+      {
+        "id": "c1",
+        "name": "Leanne",
+        "email":"Sincere@april.biz",
+        "photo":"https://i.pinimg.com/736x/56/2a/92/562a928dfa336f51902f1217fa05e474.jpg",
+        "mobile":"98745632100",
+        "company":"Romaguera-Crona",
+        "title":"developer",
+        "groupId":"1"
+      },
+      {
+        "id": "c2",
+        "name": "Ervin",
+        "email":"Shanna@melissa.tv",
+        "photo":"https://th.bing.com/th/id/OIP.6UbYX2d8gCCnT-1uJANmpwHaJN?pid=ImgDet&rs=1",
+        "mobile":"9851423100",
+        "company":"Deckow-Crist",
+        "title":"Network Admin",
+        "groupId":"2"
+      },
+      {
+        "id": "c3",
+        "name": "Clementine Bauch",
+        "email":"Nathan@yesenia.net",
+        "photo":"https://www.science-a2z.com/wp-content/uploads/2021/02/113146/GettyImages-84194772.jpg.pro-cmg-800x1163.jpg",
+        "mobile":"9852469100",
+        "company":"Romaguera-Jacobson",
+        "title":"Tester",
+        "groupId":"3"
+      },
+      {
+        "id": "c4",
+        "name": "Patricia Lebsack",
+        "email":"Julianne.OConner@kory.org",
+        "photo":"https://www.science-a2z.com/wp-content/uploads/2021/02/113146/GettyImages-1051932900.jpg.pro-cmg-scaled.jpg",
+        "mobile":"9874023140",
+        "company":"Robel-Corkery",
+        "title":"developer",
+        "groupId":"4"
+      },
+      {
+        "id": "c5",
+        "name": "Chelsey",
+        "email":"Lucio_Hettinger@annie.ca",
+        "photo":"https://www.themodestman.com/wp-content/uploads/2018/11/Tom-Cruise-famous-short-actors.jpg",
+        "mobile":"9459872100",
+        "company":"Keebler LLC",
+        "title":"HR",
+        "groupId":"1"
+      },
+      {
+        "id": "c6",
+        "name": "Dennis ",
+        "email":"Karley_Dach@jasper.info",
+        "photo":"https://www.science-a2z.com/wp-content/uploads/2021/02/113146/GettyImages-1187790261.jpg.pro-cmg-scaled.jpg",
+        "mobile":"9878455100",
+        "company":"Considine-Lockman",
+        "title":"developer",
+        "groupId":"2"
+      },
+      {
+        "id": "c7",
+        "name": "Kurtis",
+        "email":"Telly.Hoeger@billy.biz",
+        "photo":"https://www.science-a2z.com/wp-content/uploads/2021/02/113146/GettyImages-160216295.jpg.pro-cmg-scaled.jpg",
+        "mobile":"9002654890",
+        "company":"Johns Group",
+        "title":"Data Analyst",
+        "groupId":"3"
+      },
+      {
+        "id": "c8",
+        "name": "Nicholas",
+        "email":"Sherwood@rosamond.me",
+        "photo":"https://www.themodestman.com/wp-content/uploads/2018/11/James-McAvoy-697x1024.jpg",
+        "mobile":"9998462370",
+        "company":"Abernathy Group",
+        "title":"developer",
+        "groupId":"4"
+      }
+    ],
+    
+    "groups":[
+        {
+            "id": "1",
+            "name":"Friends"
+          },
+          {
+            "id": "2",
+            "name":"Family"
+          },
+          {
+            "id": "3",
+            "name":"Collegue"
+          },
+          {
+            "id": "4",
+            "name":"Social"
+          }
+    ] 
+  }

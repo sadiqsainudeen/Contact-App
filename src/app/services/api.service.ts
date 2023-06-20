@@ -32,7 +32,7 @@ getGroupName(groupId:string){
   return this.http.get('http://localhost:3000/groups/'+groupId)
 }
 
-//funstion for fetch all groups from http://localhost:3000/groups
+//function for fetch all groups from http://localhost:3000/groups
 getAllGroups(){
  return this.http.get('http://localhost:3000/groups')
 }
@@ -50,6 +50,11 @@ deleteContact(contactId:any){
 
 }
 
+//function for update conatct,update contact details according to user select
+updateContact(contactId:any,contactBody:any){
+  return this.http.put(`${this.baseUrl}/${contactId}`,contactBody)
+
+}
 }
 
 

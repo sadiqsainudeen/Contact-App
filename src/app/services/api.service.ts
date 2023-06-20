@@ -7,6 +7,9 @@ import { MyContact } from 'src/models/myContact';
   providedIn: 'root'
 })
 export class ApiService {
+  getallGroups() {
+    throw new Error('Method not implemented.');
+  }
   baseUrl:string = 'http://localhost:3000/contacts'
 
   constructor(private http:HttpClient) { }
@@ -38,6 +41,16 @@ getAllGroups(){
 addContact(contactBody:any){
   return this.http.post(this.baseUrl,contactBody)
 }
+
+
+
+//Function for delete contact
+deleteContact(contactId:any){
+  return this.http.delete(`${this.baseUrl}/${contactId}`)
+
 }
+
+}
+
 
 
